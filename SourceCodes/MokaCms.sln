@@ -10,6 +10,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{F06872
 		.nuget\packages.config = .nuget\packages.config
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MokaCms.Services", "MokaCms.Services\MokaCms.Services.csproj", "{1924739E-74FD-4292-9F67-D979DA1C4AE6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,6 +26,10 @@ Global
 		{F8DF6051-0E09-444A-AC2C-1AD70FAC5DD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8DF6051-0E09-444A-AC2C-1AD70FAC5DD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F8DF6051-0E09-444A-AC2C-1AD70FAC5DD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1924739E-74FD-4292-9F67-D979DA1C4AE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1924739E-74FD-4292-9F67-D979DA1C4AE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1924739E-74FD-4292-9F67-D979DA1C4AE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1924739E-74FD-4292-9F67-D979DA1C4AE6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

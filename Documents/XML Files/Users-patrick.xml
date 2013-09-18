@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Users>
+   <User id="TestUser1">
+	<username>TestUser1</username>
+	<password>P@ssword1</password>
+	<email>TestUser1@test.com</email>
+   </User>
+   <User id="TestUser2">
+	<username>TestUser2</username>
+	<password>P@ssword2</password>
+	<email>TestUser2@test.com</email>
+   </User>
+   <User id="TestUser3">
+	<username>TestUser3</username>
+	<password>P@ssword3</password>
+	<email>TestUser3@test.com</email>
+   </User>
+   <User id="TestUser4">
+	<username>TestUser4</username>
+	<password>P@ssword4</password>
+	<email>TestUser4@test.com</email>
+   </User>
+   <User id="TestUser5">
+	<username>TestUser5</username>
+	<password>P@ssword5</password>
+	<email>TestUser5@test.com</email>
+   </User>
+</Users>

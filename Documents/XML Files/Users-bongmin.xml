@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Company>
+  <User>
+    <id>1</id>
+    <username>admin</username>
+    <password>admin</password>
+    <email>admin@mail.com</email>
+    <phone>11111</phone>
+  </User>
+
+  <User>
+    <id>2</id>
+    <Username>bongmin</Username>
+    <Password>bongmin</Password>
+    <email>bongmin@mail.com</email>
+    <phone>222222</phone>
+  </User>
+
+  <User>
+    <id>3</id>
+    <Username>robin</Username>
+    <Password>robin</Password>
+    <email>robin@mail.com</email>
+    <phone>3333333</phone>
+  </User>
+ </Company>

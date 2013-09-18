@@ -1,0 +1,33 @@
+<members>
+	<member>
+		<username>aaaa</username>
+		<password>aaaa</password>
+		<email>aaaa@example.com</email>
+	</member>
+	<member>
+		<username>bbbb</username>
+		<password>bbbb</password>
+		<email>bbbb@example.com</email>
+	</member>
+	<member>
+		<username>cccc</username>
+		<password>cccc</password>
+		<email>cccc@example.com</email>
+	</member>
+	<member>
+		<username>dddd</username>
+		<password>dddd</password>
+		<email>dddd@example.com</email>
+	</member>
+	<member>
+		<username>eeee</username>
+		<password>eeee</password>
+		<email>eeee@example.com</email>
+	</member>
+	<member>
+		<username>aaaa</username>
+		<password>aaaa</password>
+		<email>aaaa@example.com</email>
+	</member>
+	
+</members>

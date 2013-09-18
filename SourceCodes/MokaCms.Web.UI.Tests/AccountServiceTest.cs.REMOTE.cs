@@ -26,9 +26,8 @@ namespace MokaCms.Web.UI.Tests
 		#region Tests
 
 		[Test]
-        [TestCase("smkan7", "123", true)]
-		[TestCase("patrick", "patrick", true)]
-        [TestCase("hayley","hayley",true)]
+		[TestCase("robin", "robin", true)]
+		[TestCase("patrick", "hayley", false)]
 		public void Login_GivenUsernamePassword_LoginConfirmed(string username, string password, bool result)
 		{
 			var account = new AccountService();

@@ -153,7 +153,9 @@
     <Content Include="crossdomain.xml" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
-    <Content Include="Models\Users.xml" />
+    <Content Include="Models\Users.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="robots.txt" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
@@ -171,7 +173,9 @@
     <Content Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
-    <Content Include="Views\Web.config" />
+    <Content Include="Views\Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Scripts\jquery-1.10.2.min.map" />
     <Content Include="Views\Account\Login.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
@@ -187,10 +191,13 @@
     <Content Include="Views\Home\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\MokaCms.Services\Mokacms.Services.csproj">
+    <ProjectReference Include="..\MokaCms.Services\MokaCms.Services.csproj">
       <Project>{872a2d20-e89a-4841-93d3-d15f6d3fc2a1}</Project>
-      <Name>Mokacms.Services</Name>
+      <Name>MokaCms.Services</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

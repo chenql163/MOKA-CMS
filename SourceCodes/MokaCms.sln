@@ -13,7 +13,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MokaCms.Web.UI", "MokaCms.W
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MokaCms.Web.UI.Tests", "MokaCms.Web.UI.Tests\MokaCms.Web.UI.Tests.csproj", "{F8DF6051-0E09-444A-AC2C-1AD70FAC5DD0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mokacms.Services", "MokaCms.Services\Mokacms.Services.csproj", "{872A2D20-E89A-4841-93D3-D15F6D3FC2A1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MokaCms.Services", "MokaCms.Services\MokaCms.Services.csproj", "{872A2D20-E89A-4841-93D3-D15F6D3FC2A1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

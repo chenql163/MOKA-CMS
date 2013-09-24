@@ -1,15 +1,15 @@
-using System.Reflection;
+﻿using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("MokaCms.Services")]
+[assembly: AssemblyTitle("MokaCms.DataAccessFramework")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("MokaCms.Services")]
+[assembly: AssemblyProduct("MokaCms.DataAccessFramework")]
 [assembly: AssemblyCopyright("Copyright ©  2013")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("de7c0fa8-d897-4d0a-b9cb-8660536ef8a5")]
+[assembly: Guid("7802ae15-cb51-487e-9862-652e2c275492")]
 
 // Version information for an assembly consists of the following four values:
 //

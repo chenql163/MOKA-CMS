@@ -1,34 +1,29 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Web.Mvc;
 using NUnit.Framework;
 
 namespace MokaCms.Web.UI.Tests
 {
-	[TestFixture]
-	public class HomeControllerTest
-	{
-		#region SetUp / TearDown
+    [TestFixture]
+    public class HomeControllerTest
+    {
+        #region SetUp / TearDown
 
-		[SetUp]
-		public void Init()
-		{ }
+        [SetUp]
+        public void Init()
+        { }
 
-		[TearDown]
-		public void Dispose()
-		{ }
+        [TearDown]
+        public void Dispose()
+        { }
 
-		#endregion
+        #endregion SetUp / TearDown
 
-		#region Tests
+        #region Tests
 
-		[Test]
-		public void Test()
-		{
-		}
+        [Test]
+        public void Test()
+        {
+        }
 
-		#endregion
-	}
+        #endregion Tests
+    }
 }

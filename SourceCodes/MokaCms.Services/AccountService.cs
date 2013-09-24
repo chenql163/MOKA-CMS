@@ -29,16 +29,10 @@ namespace MokaCms.Services
 			if (doc.Root == null)
 				throw new Exception("Invalid XML");
 
-			var user =
-				doc.Root
 				   .Elements("User")
-				   .SingleOrDefault(p =>
 				                    p.Element("Username").Value.ToLower() == username.ToLower() &&
-				                    p.Element("Password").Value == password);
-			if (user != null)
-				authenticated = true;
 
-			return authenticated;
+            return authenticated;
 		}
 	}
 }

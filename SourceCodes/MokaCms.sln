@@ -7,9 +7,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{F06872
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MokaCms.Web.UI", "MokaCms.Web.UI\MokaCms.Web.UI.csproj", "{4B0B29BF-6FD1-4049-848B-8EE5961E63E7}"
-	ProjectSection(ProjectDependencies) = postProject
-		{872A2D20-E89A-4841-93D3-D15F6D3FC2A1} = {872A2D20-E89A-4841-93D3-D15F6D3FC2A1}
-	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MokaCms.Web.UI.Tests", "MokaCms.Web.UI.Tests\MokaCms.Web.UI.Tests.csproj", "{F8DF6051-0E09-444A-AC2C-1AD70FAC5DD0}"
 EndProject

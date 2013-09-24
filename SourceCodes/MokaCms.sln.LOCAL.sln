@@ -1,21 +1,16 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MokaCms.Web.UI", "MokaCms.Web.UI\MokaCms.Web.UI.csproj", "{4B0B29BF-6FD1-4049-848B-8EE5961E63E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MokaCms.Web.UI.Tests", "MokaCms.Web.UI.Tests\MokaCms.Web.UI.Tests.csproj", "{F8DF6051-0E09-444A-AC2C-1AD70FAC5DD0}"
+EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{F0687261-6B0D-43A3-B9BB-D67C5795CBB4}"
 	ProjectSection(SolutionItems) = preProject
 		.nuget\packages.config = .nuget\packages.config
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MokaCms.Web.UI", "MokaCms.Web.UI\MokaCms.Web.UI.csproj", "{4B0B29BF-6FD1-4049-848B-8EE5961E63E7}"
-	ProjectSection(ProjectDependencies) = postProject
-		{872A2D20-E89A-4841-93D3-D15F6D3FC2A1} = {872A2D20-E89A-4841-93D3-D15F6D3FC2A1}
-	EndProjectSection
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MokaCms.Web.UI.Tests", "MokaCms.Web.UI.Tests\MokaCms.Web.UI.Tests.csproj", "{F8DF6051-0E09-444A-AC2C-1AD70FAC5DD0}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mokacms.Services", "MokaCms.Services\Mokacms.Services.csproj", "{872A2D20-E89A-4841-93D3-D15F6D3FC2A1}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MokaCms.DataAccessFramework", "MokaCms.DataAccessFramework\MokaCms.DataAccessFramework.csproj", "{D0E7111A-B9D3-46C8-9C63-7F67339CCB65}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MokaCms.Services", "MokaCms.Services\MokaCms.Services.csproj", "{1924739E-74FD-4292-9F67-D979DA1C4AE6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -31,14 +26,10 @@ Global
 		{F8DF6051-0E09-444A-AC2C-1AD70FAC5DD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8DF6051-0E09-444A-AC2C-1AD70FAC5DD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F8DF6051-0E09-444A-AC2C-1AD70FAC5DD0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{872A2D20-E89A-4841-93D3-D15F6D3FC2A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{872A2D20-E89A-4841-93D3-D15F6D3FC2A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{872A2D20-E89A-4841-93D3-D15F6D3FC2A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{872A2D20-E89A-4841-93D3-D15F6D3FC2A1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D0E7111A-B9D3-46C8-9C63-7F67339CCB65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D0E7111A-B9D3-46C8-9C63-7F67339CCB65}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D0E7111A-B9D3-46C8-9C63-7F67339CCB65}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D0E7111A-B9D3-46C8-9C63-7F67339CCB65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1924739E-74FD-4292-9F67-D979DA1C4AE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1924739E-74FD-4292-9F67-D979DA1C4AE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1924739E-74FD-4292-9F67-D979DA1C4AE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1924739E-74FD-4292-9F67-D979DA1C4AE6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

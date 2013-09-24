@@ -1,8 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Xml;
+using System.Xml.Linq;
 
 namespace MokaCms.Services
 {
@@ -19,7 +22,21 @@ namespace MokaCms.Services
 		/// <returns>Returns <c>True</c>, if authenticated; otherwise returns <c>False</c>.</returns>
 		public bool Authenticate(string username, string password)
 		{
-			var authenticated = username == "robin" && password == "robin";
+			var authenticated = false;
+
+			var doc = XDocument.Load(@"D:\Development\AliencubeConsulting\OpenSources\MOKA-CMS\Documents\XML Files\Users-justin.xml");
+
+			if (doc.Root == null)
+				throw new Exception("Invalid XML");
+
+			var user =
+				doc.Root
+				   .Elements("User")
+				   .SingleOrDefault(p =>
+				                    p.Element("Username").Value.ToLower() == username.ToLower() &&
+				                    p.Element("Password").Value == password);
+			if (user != null)
+				authenticated = true;
 
 			return authenticated;
 		}
